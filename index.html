@@ -1,52 +1,90 @@
 <!DOCTYPE html>
+<html lang="en">
 <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <style>
         body {
-            background-color:rgb(0, 140, 255);
             font-family: 'Courier New', Courier, monospace;
+            line-height: 1.7;
+            color: #222;
+            background-color: #f9f9f9;
+            margin: 0;
+            padding: 40px 20px;
+        }
+        .container {
+            max-width: 760px;
+            margin: 0 auto;
+            background-color: #ffffff;
+            padding: 40px 50px;
+            border: 1px solid #ddd;
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+        }
+        h1 {
+            font-size: 30px;
+            text-align: center;
+            margin-top: 0;
+            margin-bottom: 30px;
+            padding-bottom: 15px;
+            border-bottom: 2px solid #222;
+        }
+        p {
+            text-align: left;
+            margin-bottom: 20px;
+        }
+        .studies {
+            background-color: #f4f4f4;
+            border-left: 4px solid #222;
+            padding: 15px 25px;
+            margin: 25px 0;
+        }
+        .studies p {
+            margin: 12px 0;
+        }
+        a {
+            color: #0056b3;
+            text-decoration: none;
+            border-bottom: 1px dotted #0056b3;
+        }
+        a:hover {
+            color: #003366;
+            border-bottom: 1px solid #003366;
+        }
+        .cta {
+            font-size: 22px;
+            text-align: center;
+            margin-top: 35px;
+            padding-top: 25px;
+            border-top: 1px solid #ddd;
         }
     </style>
 </head>
 <body>
-    <marquee scrollamount="20" style="font-size: xxx-large; color:rgb(220, 20, 157)"><a href="https://www.youtube.com/watch?v=czTksCF6X8Y">Sam's Awesome Website</a></marquee>
-    <div style="text-align: center;"><img src="sammeyn.jpeg" width="500px"></div>
-    <audio controls>
-        <source src="Music-Mushrooms.mp3" type="audio/mpeg">
-    </audio>
-    <p>
-        Sam here. I'm a senior in Aerospace Engineering at CU Boulder.
-        I'm currently in the middle of a research project in which I wrote a 
-        custom drag estimation model for a quadcopter, and am now 
-        flight testing it to verify my model. I have an internship with 
-        the OPIR TAP Lab, where I develop software. I don't have a favorite 
-        class right now, I've been too busy with my research lately. The 
-        most impactful experience I had recently was when I dropped 
-        Vance AFB, OK, were I'll be going to Air Force pilot training
-        next year. 
-    </p>
-    <p>
-        My story really starts in high school, when I decided I wanted 
-        to fly jets for a living. I wanted to go to CU Boulder because 
-        lots of Air Force pilots (and astronauts) have graduated from 
-        here, and that caught my attention. I fell backwards into my 
-        major, first thinking I would study astrophysics. Then 
-        my scholarship provider wanted me to get an engineering degree, 
-        so I switched into electrical. Then some of my friends bullied  
-        me into finally switching into aerospace, so here I am now. 
-        Last November, I had the opportunity to go fly a twin engine   
-        supersonic jet trainer and see if this was the right career
-        for me. After that, I know for a fact that it is. I've worked
-        over the last three years to put myself in a good position
-        to recieve a pilot slot in the Air Force, which I earned in May.
-        </p>
+    <div class="container">
+        <h1>Welcome to my Homepage!</h1>
+        
+        <p>This website serves as a landing page for my WRTG 3010 research paper assignment! My name is Sam, and <a href="bio.html">here is my bio!</a>
+            My subject is how social media, the internet, and digital technology impact our lives and the lives of children. 
+            A few studies that I found were:</p>
+            
+        <div class="studies">
+            <p><a href="https://ourworldindata.org/rise-of-social-media?scriptPath=bundles%2Fapp.js&inpageEditorUI=true&cssPath=bundles%2Fapp.css&title=Direct_mail_marketing&hubs_signup-cta=null&videoHeight=360&videoWidth=640&_preview=true&__hstc=175426365.e73b5866dc0b9bff67459efb52581f72.1550229414908.1550229414908.1550229414908.1&%20controlsVisibleOnLoad=true&portalId=53&benderPackage=InpageEditorUI&staticVersion=static-1.22392&wmode=transparent&controlsVisibleOnLoad=true&redirect=no&preview_key=pSOAWoAu&hs_amp=false&playerColor=688AAD&hubs_signup-url=preview.hs-sites.com%2F_hcms%2Fpreview%2Fcontent%2F5241498400&version=v1&cacheBust=1594720451930&__hssc=175426365.30.1550745867488&t=48s&v=jNsvxGAd__0&autoPlay=true&__hsfp=911730534&hubs_post=blog.hubspot.jp/how-to-integrate-sansan-with-hubspot&hubs_post-cta=%E3%83%91%E3%82%A4%E3%83%97%E3%83%A9%E3%82%A4%E3%83%B3%E7%AE%A1%E7%20%86&hubs_content=www.hubspot.jp/products/crm/pipeline-management&hubs_content-cta=SNS%E3%83%84%E3%83%BC%E3%83%AB">Ortiz-Ospina, E. (2019) The Rise of Social Media, Our World in Data</a></p> 
+            <p><a href="https://www.cmaj.ca/content/192/6/E136.short">Abi-Jaoude, E., Naylor, K.T., & Pignatiello, A. (Feb. 2020) Smartphones, social media use and youth mental health, Canadian Medical Association Journal</a></p>
+            <p><a href="https://publications.aap.org/pediatrics/article/157/1/e2025072941/205716/Smartphone-Ownership-Age-of-Smartphone-Acquisition">Ran Barzilay, et. al, Smartphone Ownership, Age of Smartphone Acquisition, and Health Outcomes in Early Adolescence</a></p>
+        </div>
+
         <p>
-        One goal I have after college is to go to Test Pilot School. 
-        Being a test pilot is where flying meets engineering, and that 
-        sounds like a dream. My favorite part about flying is being 
-        in control of a machine that's the culmination of hundreds
-        of years of technological innovation, truly at the pinnacle 
-        of human technology in the history of the entire world.
-        I am most passionate about becoming the best possible man 
-        at my job. Perfection would be great.
+            While they may not immediately seem connected, these articles outline three sides of one issue that has been shaping society for at least the last decade: 
+            social media popularity, children having access to devices (and therefore social media), and what effects this has on their upbringing and ultimately their lives. 
+            One argument is that young children do not possess social media or the ability to have an online presence, but it is clear from the second source that this 
+            is not the case. 
+            It is no surprise that social media has risen in popularity over the last ten years, but the effects it's had on the youth are still being uncovered. 
+            The purpose of this website is to help organize some of this research so that the results are more clear: <b>social media has been negatively affecting children.</b>
         </p>
+
+        <p class="cta">
+            Please feel free to browse my <a href="synth.pdf">synthesis of articles</a>, or take a look at my <a href="mag.png">magazine style article!</a>
+        </p>
+    </div>
 </body>
+</html>
